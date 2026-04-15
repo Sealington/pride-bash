@@ -5,7 +5,6 @@ function asexual() {
   local g="\e[38;5;247m"
   local w="\e[38;5;15m"
   local p="\e[38;5;90m"
-  #if [ -z "$1" ];
   local c="█"
   local d=${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}
   echo -e ${b}${d}
