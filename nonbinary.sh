@@ -5,7 +5,6 @@ function nonbinary() {
   local y="\e[38;5;11m"
   local p="\e[38;5;98m"
   local w="\e[38;5;15m"
-  #if [ -z "$1" ];
   local c="█"
   local d=${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}
   echo -e ${y}${d}
