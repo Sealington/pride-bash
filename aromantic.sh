@@ -6,7 +6,6 @@ function aromantic() {
   local w="\e[38;5;15m"
   local r="\e[38;5;248m"
   local b="\e[38;5;16m"
-  #if [ -z "$1" ];
   local c="█"
   local d=${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}
   echo -e ${g}${d}
