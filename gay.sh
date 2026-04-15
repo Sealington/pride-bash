@@ -8,7 +8,6 @@ function gay() {
   local b3="\e[38;5;111m"
   local b2="\e[38;5;57m"
   local b1="\e[38;5;17m"
-  #if [ -z "$1" ];
   local c="█"
   local d=${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}
   echo -e ${g1}${d}
