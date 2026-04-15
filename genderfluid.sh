@@ -6,7 +6,6 @@ function genderfluid() {
   local m="\e[38;5;5m"
   local b="\e[38;5;16m"
   local n="\e[38;5;57m"
-  #if [ -z "$1" ];
   local c="█"
   local d=${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}
   echo -e ${p}${d}
