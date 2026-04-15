@@ -7,7 +7,6 @@ function pride() {
   local g="\e[38;5;28m"
   local b="\e[38;5;27m"
   local p="\e[38;5;91m"
-  #if [ -z "$1" ];
   local c="█"
   local d=${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}
   echo -e ${r}${d}
