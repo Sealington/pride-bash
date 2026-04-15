@@ -6,7 +6,6 @@ function lesbian() {
   local w="\e[38;5;15m"
   local p="\e[38;5;169m"
   local m="\e[38;5;126m"
-  #if [ -z "$1" ];
   local c="█"
   local d=${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}${c}
   echo -e ${o}${d}
